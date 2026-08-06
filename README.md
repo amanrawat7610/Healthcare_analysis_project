@@ -81,3 +81,54 @@ A new column was created:
 df["length_of_stay"] = (
     df["discharge_date"] - df["date_of_admission"]
 ).dt.days
+
+**EDA Examples**
+df["medical_condition"].value_counts()
+
+df["admission_type"].value_counts()
+
+df["test_results"].value_counts()
+
+
+
+🛠️ **Tools & Technologies**
+Tool	Purpose
+Python	Data Cleaning & EDA
+Pandas	Data Manipulation
+NumPy	Data Processing
+MySQL	Database & SQL Analysis
+SQLAlchemy	Python-MySQL Connection
+SQL	Business Analysis
+Power BI	Dashboard & Visualization
+GitHub	Project Documentation
+
+**Project Structure**
+
+Healthcare-Data-Analytics/
+│
+├── README.md
+│
+├── data/
+│   └── healthcare_cleaned.csv
+│
+├── python/
+│   └── healthcare_analysis.ipynb
+│
+├── sql/
+│   └── healthcare_analysis.sql
+│
+├── dashboard/
+│   └── Healthcare_Analytics_Dashboard.pbix
+│
+└── screenshots/
+    └── healthcare_dashboard.png
+
+
+👤 **Author**
+
+Aman Rawat
+
+Aspiring Data Analyst
+
+Skills:
+Python • SQL • MySQL • Power BI • Excel • Pandas • Data Cleaning • EDA • Data Visualization
